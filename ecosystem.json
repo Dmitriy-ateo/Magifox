@@ -1,0 +1,17 @@
+{
+  "apps" : [{
+    "name" : "HTTP-API",
+    "script" : "http.js"
+  }],
+  "deploy" : {
+    // "production" is the environment name
+    "production" : {
+      "user" : "magi",
+      "host" : ["159.89.135.227"],
+      "ref"  : "origin/master",
+      "repo" : "git@github.com:Dmitriy-ateo/Magifox.git",
+      "path" : "/var/www/website",
+      "post-deploy" : "npm install; grunt dist"
+    },
+  }
+}
