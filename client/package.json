@@ -1,6 +1,6 @@
 {
-  "name": "near",
-  "version": "0.0.0",
+  "name": "Magifox",
+  "version": "0.1.1",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
@@ -19,6 +19,7 @@
     "foundation-sites": "^6.4.4-rc1",
     "graphql-tag": "^2.5.0",
     "handlebars": "^4.0.11",
+    "hoek": "^5.0.3",
     "npm": "^5.8.0",
     "zone.js": "^0.8.14"
   },
