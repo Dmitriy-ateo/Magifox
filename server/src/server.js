@@ -9,7 +9,7 @@ import router from './routes';
 import './db';
 
 const app = new koa();
-const PORT = process.env.PORT || 3001;
+const PORT = 3001;
 
 // koaBody is needed just for POST.
 app.use(koaBody());
